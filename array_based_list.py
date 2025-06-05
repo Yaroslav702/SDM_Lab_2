@@ -36,7 +36,7 @@ class ArrayBasedList:
     def reverse(self):
         self._data.reverse()
 
-    def findFirst(self, element):
+    def find_first(self, element):
         if not isinstance(element, str) or len(element) != 1:
             return -1
 
