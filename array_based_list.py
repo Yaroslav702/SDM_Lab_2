@@ -3,7 +3,7 @@ class ArrayBasedList:
         self._data = []
 
     def length(self):
-        return len(self._data) + 1
+        return len(self._data)
 
     def append(self, element):
         self._validate_elem_to_append(element)
